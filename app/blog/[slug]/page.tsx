@@ -54,11 +54,11 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
         ]}
       />
 
-      <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
+      <section className="bg-slate-900 text-white py-20 px-4">
         <div className="max-w-3xl mx-auto">
           <div className="flex flex-wrap gap-2 mb-6">
             {post.frontmatter.tags?.map((tag) => (
-              <span key={tag} className="bg-white/20 text-white text-sm px-3 py-1 rounded-full">
+              <span key={tag} className="bg-white/10 text-slate-300 text-sm px-3 py-1 rounded-full">
                 {tag}
               </span>
             ))}
@@ -66,8 +66,8 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
           <h1 className="text-3xl md:text-4xl font-extrabold mb-6 leading-tight">
             {post.frontmatter.title}
           </h1>
-          <p className="text-blue-100 text-lg mb-6">{post.frontmatter.description}</p>
-          <div className="flex items-center gap-4 text-blue-200 text-sm">
+          <p className="text-slate-300 text-lg mb-6">{post.frontmatter.description}</p>
+          <div className="flex items-center gap-4 text-slate-400 text-sm">
             <span>Por {post.frontmatter.author}</span>
             <span>·</span>
             <span>

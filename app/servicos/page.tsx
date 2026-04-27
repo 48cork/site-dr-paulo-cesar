@@ -33,7 +33,7 @@ export default function ServicosPage() {
           <p className="text-slate-400 text-sm font-medium mb-4 tracking-wide uppercase">
             {ADVOGADO}
           </p>
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6">Serviços</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6">O que fazer depois do falecimento</h1>
           <p className="text-slate-300 text-xl max-w-2xl">
             Especializado em direito das sucessões — do inventário à regularização do imóvel que ficou para a família.
           </p>
@@ -71,6 +71,7 @@ export default function ServicosPage() {
                     href={WA_LINK}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`Falar com Dr. Paulo Cesar pelo WhatsApp sobre ${servico.nome}`}
                     className="inline-block bg-slate-900 text-white font-semibold px-8 py-3 rounded-xl hover:bg-slate-700 transition-colors text-sm"
                   >
                     Consultar sobre {servico.nome}

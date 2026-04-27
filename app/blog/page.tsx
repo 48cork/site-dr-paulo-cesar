@@ -9,9 +9,9 @@ import { SITE_URL } from '@/lib/seo/metadata'
 export const dynamic = 'force-static'
 
 export const metadata: Metadata = {
-  title: 'Blog de Marketing Digital',
+  title: 'Blog — Inventário e Herança em Sergipe | Dr. Paulo Rolemberg',
   description:
-    'Artigos, dicas e estratégias de marketing digital para empresas brasileiras. SEO, tráfego pago, redes sociais e muito mais.',
+    'Prazos reais, custos em Sergipe e o que fazer depois que um familiar falece. Respostas diretas para quem está passando por um inventário agora.',
   alternates: { canonical: `${SITE_URL}/blog` },
 }
 
@@ -27,11 +27,17 @@ export default function BlogPage() {
         ])}
       />
 
-      <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6">Blog de Marketing Digital</h1>
-          <p className="text-blue-100 text-xl max-w-2xl mx-auto">
-            Estratégias, tendências e dicas práticas para crescer no digital.
+      <section className="bg-slate-900 text-white py-20 px-4">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-slate-400 text-sm font-medium mb-4 tracking-wide uppercase">
+            Inventário em Sergipe
+          </p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
+            Entenda o inventário antes<br />
+            <span className="text-amber-400">de contratar um advogado</span>
+          </h1>
+          <p className="text-slate-300 text-xl max-w-2xl">
+            Prazos reais, custos em Sergipe e o que fazer logo depois que um familiar falece. Sem juridiquês.
           </p>
         </div>
       </section>

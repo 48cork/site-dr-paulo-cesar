@@ -24,6 +24,7 @@ export function Header() {
               href="https://wa.me/5579999787700?text=Olá%20Dr.%20Paulo%20Cesar%2C%20preciso%20de%20ajuda%20com%20inventário"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Falar com Dr. Paulo Cesar pelo WhatsApp"
               className="bg-slate-900 text-white px-5 py-2 rounded-lg font-medium hover:bg-slate-700 transition-colors text-sm"
             >
               Fale pelo WhatsApp
