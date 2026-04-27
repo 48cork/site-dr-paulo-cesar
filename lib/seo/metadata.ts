@@ -16,6 +16,9 @@ export function buildBaseMetadata(): Metadata {
       template: `%s | ${SITE_NAME}`,
     },
     description: SITE_DESCRIPTION,
+    verification: {
+      google: 'v3ZUPZluByJJ1rmOanKX_rpZNvQuYmqC1OLw_sNL_6k',
+    },
     openGraph: {
       siteName: SITE_NAME,
       locale: 'pt_BR',
