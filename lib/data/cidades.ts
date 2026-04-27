@@ -15,7 +15,7 @@ export const CIDADES: Cidade[] = [
     siglaEstado: 'SE',
     populacao: '650 mil',
     contextoLocal:
-      'Em Aracaju, os cartórios de notas estão concentrados no Centro e no bairro Salgado Filho. A cidade vive um ciclo intenso de valorização imobiliária — bairros como Coroa do Meio, Jabotiana e Farolândia têm muitos imóveis herdados que precisam de regularização para serem vendidos ou financiados.',
+      'Quem mora em Aracaju e perdeu um familiar frequentemente descobre que o imóvel herdado não pode ser vendido nem financiado sem antes passar pelo inventário. O Dr. Paulo Cesar cuida de todo esse processo — da documentação inicial até o registro final em cartório.',
   },
   {
     slug: 'nossa-senhora-do-socorro',
@@ -24,7 +24,7 @@ export const CIDADES: Cidade[] = [
     siglaEstado: 'SE',
     populacao: '200 mil',
     contextoLocal:
-      'Nossa Senhora do Socorro é a segunda maior cidade de Sergipe e cresceu muito rápido nas últimas décadas. Com essa expansão acelerada, uma parcela significativa dos imóveis — especialmente em bairros como Marcos Freire I, II e III — ainda não tem documentação regularizada, o que torna o inventário ainda mais importante para garantir a transferência legal da propriedade.',
+      'Nossa Senhora do Socorro cresceu muito rápido, e boa parte dos imóveis da cidade ainda não tem escritura ou está em nome de pessoas já falecidas. Se é o seu caso, o Dr. Paulo Cesar pode dizer exatamente o que precisa ser feito — e fazer.',
   },
   {
     slug: 'lagarto',
@@ -33,7 +33,7 @@ export const CIDADES: Cidade[] = [
     siglaEstado: 'SE',
     populacao: '103 mil',
     contextoLocal:
-      'Lagarto é polo do sul sergipano e concentra uma grande quantidade de propriedades rurais — sítios, chácaras e terrenos agrícolas que muitas vezes passam de geração em geração sem escritura formal. O inventário e a regularização desses imóveis rurais têm particularidades que exigem atenção jurídica especializada.',
+      'Em Lagarto, é comum que sítios e propriedades rurais passem de pai para filho por décadas sem nenhum documento formal. Quando chega a hora de regularizar, as famílias não sabem nem por onde começar. O Dr. Paulo Cesar já resolveu casos assim mais vezes do que consegue contar.',
   },
   {
     slug: 'itabaiana',
@@ -42,7 +42,7 @@ export const CIDADES: Cidade[] = [
     siglaEstado: 'SE',
     populacao: '100 mil',
     contextoLocal:
-      'Conhecida como a "capital do agreste sergipano", Itabaiana é um dos municípios mais dinâmicos do interior do estado. Com forte tradição comercial e grande quantidade de pequenas propriedades rurais e urbanas na família há gerações, é comum encontrar imóveis sem escritura ou em nome de pessoas já falecidas.',
+      'Itabaiana tem uma das maiores concentrações de pequenas propriedades rurais e urbanas do interior sergipano — e boa parte delas ainda está em nome de avós ou bisavós. Se o inventário está parado ou nunca foi aberto, o Dr. Paulo Cesar pode retomar de onde parou ou começar do zero.',
   },
   {
     slug: 'sao-cristovao',
@@ -51,7 +51,7 @@ export const CIDADES: Cidade[] = [
     siglaEstado: 'SE',
     populacao: '85 mil',
     contextoLocal:
-      'São Cristóvão foi fundada em 1590 e é uma das cidades mais antigas do Brasil — o que significa que muitos imóveis no município têm documentação antiga, incompleta ou simplesmente inexistente. Regularizar a situação de imóveis históricos na cidade exige conhecimento específico e paciência com a burocracia cartorária.',
+      'São Cristóvão foi fundada em 1590, e isso tem consequências práticas: muitos imóveis têm documentação antiga, incompleta ou simplesmente inexistente. Regularizar isso exige paciência com a burocracia — e o Dr. Paulo Cesar tem.',
   },
 ]
 
